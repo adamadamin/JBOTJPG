@@ -727,7 +727,7 @@ let res = sock.sendMessage(from, { text: teks, mentions: mems }, { quoted: m })
 return res
  }
 }
-let head = `*╭───╼[ _DEFFBOTZ-DEFF_ ]╾──➲*`
+let head = `*╭───╼[ _JUN BOT_ ]╾──➲*`
 let left = "*│*"
 let branch = "*├*"
 let bracketmenu = "*┞─╼「"
@@ -994,7 +994,7 @@ ${branch}> / => / $
 ${borderlistend}
 
 ${headtqto}
-${A} Dika Ardnt
+${A} J A C K
 ${B} ZackMans
 ${A} Rifza
 ${B} Deff
@@ -1013,7 +1013,7 @@ url: linkgrupss
 }, {
 urlButton: {
 displayText: 'Instagram',
-url: 'https://instagram.com/deff.xyz'
+url: 'https://instagram.com/junaediiindraa'
 }
 }, {
 quickReplyButton: {
@@ -1969,7 +1969,7 @@ templateMessage: {
 hydratedTemplate: {
 videoMessage: message.videoMessage,
 hydratedContentText: listmn,
-hydratedFooterText: "© DEFFBOTZ ~ DEFF",
+hydratedFooterText: "© JUNAEDI INDRA",
 hydratedButtons: [{
 urlButton: {
 displayText: 'Group Whatsapp',
@@ -1978,7 +1978,7 @@ url: linkgrupss
 }, {
 urlButton: {
 displayText: 'Instagram',
-url: 'https://instagram.com/deff.xyz'
+url: 'https://instagram.com/junaediiindraa'
 }
 }, {
 quickReplyButton: {
@@ -2311,7 +2311,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNAEDI INDRA",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -2356,7 +2356,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNAEDI INDRA",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -2809,7 +2809,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNAEDI INDRA",
 buttons: buttons,
 headerType: 4
 }
@@ -2834,7 +2834,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNAEDI INDRA",
 buttons: buttons,
 headerType: 4
 }
@@ -2861,7 +2861,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNAEDI INDRA",
 buttons: buttons,
 headerType: 4
 }
@@ -2885,7 +2885,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNAEDI INDRA",
 buttons: buttons,
 headerType: 4
 }
@@ -3071,8 +3071,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 DEFF ~ MD」*\n\nChange Info, Select Open Or Close`,
-footer: "© DEFFBOTZ ~ DEFF",
+caption: `*「 JUNN ~ MD」*\n\nChange Info, Select Open Or Close`,
+footer: "JUNAEDI INDRA",
 buttons: buttons,
 headerType: 4
 }
@@ -3098,8 +3098,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 DEFF ~ MD」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© DEFFBOTZ ~ DEFF",
+caption: `*「 JUNN ~ MD」*\n\nChange Group Setting, Select Open Or Close`,
+footer: "JUNAEDI INDRA",
 buttons: buttons,
 headerType: 4
 }
@@ -3185,7 +3185,7 @@ id: '#sc'
 }
 }]
 let txt = `*「 Broadcast」*\n\n${text}`
-sock.send5ButImg(i, txt, "© DEFFBOTZ ~ DEFF", log0, btn, thum)
+sock.send5ButImg(i, txt, "© JUNN BOT", log0, btn, thum)
 }
 ads(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
@@ -3226,7 +3226,7 @@ id: '#sc'
 }
 }]
 let txt = `*「 Broadcast」*\n\n${text}`
-sock.send5ButImg(yoi, txt, "© DEFFBOTZ ~ DEFF", log0, btn, thum)
+sock.send5ButImg(yoi, txt, "© JUNN BOT", log0, btn, thum)
 }
 ads('Sukses Broadcast')
 }
@@ -3730,12 +3730,12 @@ let buttons = [
 let buttonMessage = {
 image: { url: imgnyee },
 caption:  '⭔ Title : ' + args.join(" ") + '\n⭔ Media Url : '+imgnyee,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© JUNNBOTZ ~ JUNN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"JUNNBOTZ - By Junn",
+body:"© JUNNBOTZ ~ JUNN",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
