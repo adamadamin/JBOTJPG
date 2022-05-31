@@ -747,7 +747,7 @@ ${head}
 ${left}
 ${left} Library : Baileys - Multi Device
 ${left} Device : iPhone 13 
-${left} RAM    : 128GB
+${left} Phone storage : 1TB
 ${left} 
 ${left}ɪɴꜱᴛᴀɢʀᴀᴍ : ᴊᴜɴᴀᴇᴅɪɪɪɴᴅʀᴀᴀ
 ${left}
@@ -3506,7 +3506,7 @@ oldd = performance.now()
 respon = `
 Kecepatan Respon ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-💻 Info Server
+📱 Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
