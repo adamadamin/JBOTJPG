@@ -564,10 +564,10 @@ const textImg = (teks) => {
 sock.sendMessage(m.chat, { text :teks, }, {quoted: m, thumbnail: fs.readFileSync('./worker/media/image/wpmobile.png')}) 
 }
 const ads = (teks) => {
-sock.sendMessage(from, { text : teks, contextInfo: {"externalAdReply": { title: "WHASTAPP BOT",mediaType: 3,renderLargerThumbnail: true, showAdAttribution: true, body: "🤫",thumbnail: global.thum,sourceUrl: "https://www.instagram.com/p/CdE0RPbDRXi/?igshid=YmMyMTA2M2Y="}}})
+sock.sendMessage(from, { text : teks, contextInfo: {"externalAdReply": { title: "JUNN BOT",mediaType: 3,renderLargerThumbnail: true, showAdAttribution: true, body: "🤫",thumbnail: global.thum,sourceUrl: "https://www.instagram.com/junaediiindraa"}}})
 }
 const detect = (teks) => {  /// Jangan Diubah ntar error
-sock.sendMessage(from, { text : teks, contextInfo: {"externalAdReply": { title: `Akurasi : ${anu2}`,mediaType: 3,renderLargerThumbnail: true, showAdAttribution: true, body: "Command Not Found",thumbnail: global.thum,sourceUrl: "https://www.instagram.com/p/CdE0RPbDRXi/?igshid=YmMyMTA2M2Y="}}})
+sock.sendMessage(from, { text : teks, contextInfo: {"externalAdReply": { title: `Akurasi : ${anu2}`,mediaType: 3,renderLargerThumbnail: true, showAdAttribution: true, body: "Command Not Found",thumbnail: global.thum,sourceUrl: "https://www.instagram.com/junaediiindraa"}}})
 }
 // Fake Reply
 //FAKEREPLY PRODUCT
@@ -1031,7 +1031,7 @@ displayText: '📊Dashboard',
 id: '#dashboard'
 }
 }]
-sock.sendMessage(from, { caption: listmn, location: { jpegThumbnail: fs.readFileSync('./worker/media/image/loc.jpg') }, buttons: but, footer: '©Deffbotz ~ Deff'})
+sock.sendMessage(from, { caption: listmn, location: { jpegThumbnail: fs.readFileSync('./worker/media/image/loc.jpg') }, buttons: but, footer: 'JUNN BOT'})
 }
 break
 break
