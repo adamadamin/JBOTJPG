@@ -263,21 +263,18 @@ teks = `Ketik join untuk bergabung ke group whatsapp anda`
 sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "JUNN BOT", "6289501060783@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 
-// AntiLink
-if (AntiLink) {
-if (!isBotAdmins) return
-linkgce = await sock.groupInviteCode(from)
-if (budy.includes(`https://chat.whatsapp.com/${linkgce}`)) {
-ads(`\`\`\`「 Detect Link 」\`\`\`\n\nAnda tidak akan dikick bot karena yang anda kirim adalah link group yg ada di group ini`)
-} else if (isUrl(m.text)) {
-bvl = `\`\`\`「 Detect Link 」\`\`\`\n\nAdmin telah mengirim link, admin dibebaskan untuk mengirim link apapun`
-if (isAdmins) return ads(bvl)
-if (m.key.fromMe) return ads(bvl)
-if (isCreator) return ads(bvl)
-kice = m.sender
-await sock.groupParticipantsUpdate(m.chat, [kice], 'remove').then((res) => ads(jsonformat(res))).catch((err) => ads(jsonformat(err)))
-sock.sendMessage(from, {text:`\`\`\`「 Detect Link 」\`\`\`\n\n@${kice.split("@")[0]} Telah dikick karena send link di group ini`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
-} else {
+ // Anti Link
+if (db.data.chats[m.chat].antilink) {
+if (budy.match(`chat.whatsapp.com`)) {
+reply(`「 ANTI LINK 」\n\nKamu terdeteksi mengirim link group, maaf kamu akan di kick !`)
+if (!isBotAdmins) return reply(`Ehh bot gak admin T_T`)
+let gclink = (`https://chat.whatsapp.com/`+await chika.groupInviteCode(m.chat))
+let isLinkThisGc = new RegExp(gclink, 'i')
+let isgclink = isLinkThisGc.test(m.text)
+if (isgclink) return reply(`Ehh maaf gak jadi, karena kamu ngirim link group ini`)
+if (isAdmins) return reply(`Ehh maaf kamu admin`)
+if (isCreator) return reply(`Ehh maaf kamu owner bot ku`)
+chika.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }
 }
 
