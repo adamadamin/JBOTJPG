@@ -4260,8 +4260,8 @@ break
 //if (sat == undefined) {
 //bang = util.format(sul)
 //}
-return ads(bang)
-}
+//return ads(bang)
+//}
 try {
 ads(util.format(eval(`(async () => { ${budy.slice(3)} })()`)))
 } catch (e) {
