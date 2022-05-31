@@ -260,7 +260,7 @@ user.afkReason = ''
 // Detect Group Invite
 if (m.mtype === 'groupInviteMessage') {
 teks = `Ketik join untuk bergabung ke group whatsapp anda`
-sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "DEFF~MD", "6289501060783@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "JUNN BOT", "6289501060783@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 
 // AntiLink
@@ -564,7 +564,7 @@ const textImg = (teks) => {
 sock.sendMessage(m.chat, { text :teks, }, {quoted: m, thumbnail: fs.readFileSync('./worker/media/image/wpmobile.png')}) 
 }
 const ads = (teks) => {
-sock.sendMessage(from, { text : teks, contextInfo: {"externalAdReply": { title: "JUNN BOT",mediaType: 3,renderLargerThumbnail: true, showAdAttribution: true, body: "🤫",thumbnail: global.thum,sourceUrl: "https://www.instagram.com/junaediiindraa"}}})
+sock.sendMessage(from, { text : teks, contextInfo: {"externalAdReply": { title: "JUNN BOT",mediaType: 3,renderLargerThumbnail: true, showAdAttribution: true, body: "ig:junaediiindraa",thumbnail: global.thum,sourceUrl: "https://www.instagram.com/junaediiindraa"}}})
 }
 const detect = (teks) => {  /// Jangan Diubah ntar error
 sock.sendMessage(from, { text : teks, contextInfo: {"externalAdReply": { title: `Akurasi : ${anu2}`,mediaType: 3,renderLargerThumbnail: true, showAdAttribution: true, body: "Command Not Found",thumbnail: global.thum,sourceUrl: "https://www.instagram.com/junaediiindraa"}}})
@@ -746,7 +746,7 @@ const listmn = `
 ${head}
 ${left}
 ${left} Library : Baileys - Multi Device
-${left} Language : JavaScript
+${left} Device : iPhone 13 
 ${left}
 ${bracketmenu} PROFILE BOT ${F} 
 ${left} Owner : ${owner.length}
