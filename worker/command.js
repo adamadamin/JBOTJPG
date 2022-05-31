@@ -2655,7 +2655,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-sock.sendMessage(from, {text: `PERINGATAN!!! jika bukan admin jangan send link di group ini`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+sock.sendMessage(from, {text: `PERINGATAN!!! DILARANG SPAM LINK DI GRUP INI`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
 if (!AntiLink) return ads('Sudah Mati')
 let off = ntilink.indexOf(from)
@@ -3242,7 +3242,7 @@ let buttonMessage = {
 image: thum,
 jpegThumbnail: log0,
 caption: teks,
-footer: "©DEFF",
+footer: "JUNN BOT",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3685,12 +3685,12 @@ caption: `*| GOOGLE IMAGE |*
 
 🤠 Query : ${text}
 🔗 Media Url : ${images}`,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNN BOT",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"JUNN BOT",
+body:"JUNN BOT",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3775,7 +3775,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNN BOT",
 buttons: buttons,
 headerType: 4
 }
@@ -3858,8 +3858,8 @@ if (isBan) return ads(mess.ban)
 if (!args[0]) return ads("Linknya mana kak?")
 try {
 sock.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"JUNN BOT",
+body:"JUNN BOT",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3891,7 +3891,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNN BOT",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3918,7 +3918,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNN BOT",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3952,7 +3952,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNN BOT",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3979,7 +3979,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNN BOT",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -4014,7 +4014,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[1].url},
 caption: texttk,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNN BOT",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -4063,7 +4063,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[0].url},
 caption: texttk,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNN BOT",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -4103,12 +4103,12 @@ caption: `*| YOUTUBE PLAY |*
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "JUNN BOT",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
-body: "© DEFFBOTZ ~ DEFF",
+body: "JUNN BOT",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
@@ -4161,8 +4161,8 @@ break
 case prefix+'ytvd': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"JUNN BOTTf",
+body:"JUNN BOT",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
