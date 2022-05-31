@@ -564,7 +564,7 @@ const textImg = (teks) => {
 sock.sendMessage(m.chat, { text :teks, }, {quoted: m, thumbnail: fs.readFileSync('./worker/media/image/wpmobile.png')}) 
 }
 const ads = (teks) => {
-sock.sendMessage(from, { text : teks, contextInfo: {"externalAdReply": { title: "JUNN BOT",mediaType: 3,renderLargerThumbnail: true, showAdAttribution: true, body: "ig:junaediiindraa",thumbnail: global.thum,sourceUrl: "https://www.instagram.com/junaediiindraa"}}})
+sock.sendMessage(from, { text : teks, contextInfo: {"externalAdReply": { title: "JUNN BOT",mediaType: 3,renderLargerThumbnail: true, showAdAttribution: true, body: "ig : junaediiindraa",thumbnail: global.thum,sourceUrl: "https://www.instagram.com/junaediiindraa"}}})
 }
 const detect = (teks) => {  /// Jangan Diubah ntar error
 sock.sendMessage(from, { text : teks, contextInfo: {"externalAdReply": { title: `Akurasi : ${anu2}`,mediaType: 3,renderLargerThumbnail: true, showAdAttribution: true, body: "Command Not Found",thumbnail: global.thum,sourceUrl: "https://www.instagram.com/junaediiindraa"}}})
@@ -747,6 +747,9 @@ ${head}
 ${left}
 ${left} Library : Baileys - Multi Device
 ${left} Device : iPhone 13 
+${left} RAM    : 128GB
+${left} 
+${left}ɪɴꜱᴛᴀɢʀᴀᴍ : ᴊᴜɴᴀᴇᴅɪɪɪɴᴅʀᴀᴀ
 ${left}
 ${bracketmenu} PROFILE BOT ${F} 
 ${left} Owner : ${owner.length}
