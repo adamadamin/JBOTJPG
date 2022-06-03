@@ -102,14 +102,14 @@ if (anu.action == 'add') {
 
 @${orgnye.split("@")[0]} Jika ingin melihat list menu klik tombol menu dibawah
 
-jika tombol tidak terlihat di whatsapp versi lama atau mod kalian mengetik menu untuk melihat list menu`
+*jangan lupa ber2 admin sini, karena admin sini 100% aman*`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'Menu'}, type: 1}
 ]
 let buttonMessage = {
 image: await getBuffer(ppuser), 
 caption: mbc,
-footer: "© DEFFBOTZ - BY - DEFF",
+footer: "© JUNN BOT",
 mentions:[orgnye],
 buttons: buttons,
 headerType: 4,
