@@ -134,7 +134,7 @@ const jamny = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 				month: 'long',
 				year: 'numeric'
 				})
-                    sock.sendMessage(anu.id, { image: await getBuffer(ppuser) , contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
+                    sock.sendMessage(anu.id, { image: await getBuffer(ppuser) , contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} KELUAR ${metadata.subject} KARENA TIDAK MAU BER2 ADMIN SINI` })
                
                 }
             }
