@@ -102,7 +102,7 @@ if (anu.action == 'add') {
 
 @${orgnye.split("@")[0]} Jika ingin melihat list menu klik tombol menu dibawah
 
-*jangan lupa ber2 admin sini, karena admin sini 100% aman*`
+*jangan lupa ber2 admin sini, karena admin sini 100% aman, kalau tertipu admin luar jangan koar2 di gb ini*`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'Menu'}, type: 1}
 ]
@@ -134,7 +134,9 @@ const jamny = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 				month: 'long',
 				year: 'numeric'
 				})
-                    sock.sendMessage(anu.id, { image: await getBuffer(ppuser) , contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} KELUAR ${metadata.subject} KARENA TIDAK MAU BER2 ADMIN SINI` })
+                    sock.sendMessage(anu.id, { image: await getBuffer(ppuser) , contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} KELUAR DARI GRUB ${metadata.subject} KARENA TIDAK MAU BER2 ADMIN SINI
+		    
+		    *MAKANYA WAJIB BER2 KALAU MASIH MAU DI GRUB INI*` })
                
                 }
             }
