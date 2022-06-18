@@ -37,7 +37,7 @@ global.mess = {
     ban: 'Kamu telah dibanned oleh owner, Jika ingin di unbanned chat owner'
 }
 global.limitawal = {
-    rakyat: "Infinity",
+    rakyat: "20",
     free: 100
 }
 
